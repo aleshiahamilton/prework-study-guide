@@ -17,29 +17,82 @@
       <section class="card" id="html-section">
         <h2>HTML</h2>
           <ul>
-            <li>The head element contains information about the webpage.</li>
+            <li>Hypertext Markup Language (HTML)</li>
+            <ul>
+              <li>Text elements</li>
+              <li>Image elements</li>
+              <li>Header elements</li>
+              <li>List elements</li>
+            </ul>
+            <ul>
+              <li>Meta-related elements</li>
+              <li>Content division elements</li>
+              <li>Semantic elements</li>
+            </ul>
+            <li>HTML elements have an opening tag and a closing tag represented with angle brackets.</li>
+            <li>The head element contains information about the webpage that helps to render the page properly. These elements are are not visible when a user looks at a webpage</li>
+            <li>The style element defines the CSS styles associated with a website.</li>
+            <li>The link element connects an external resource to the HTML document.</li>
             <li>The body element represents the visible content shown to the user.</li>
+            <li>The meta element defines metadata such as the character set (UTF-8), description, keywords, author, and viewport.</li>
           </ul>
         </section>
         <section class="card" id="css-section">
         <h2>CSS</h2>
           <ul>
+            <li>Cascading Style Sheets</li>
+            <li>The most common way to style a webpage is by using an external CSS style sheet. This is preferred in most cases because it allows developers to keep all their CSS rules in a separate file, which makes design changes easier.</li>
+            <li>When using an external style sheet, link the file using a link element placed in the HTML's head.</li>
+            <li>Separation of concerns refers to separating code into different files based on use</li>
+            <li>Declarations contain two important components: the CSS property we want to apply and the value of the property. For example, the declaration color: blue; includes the CSS property color and the value for that property, blue.</li>
+            <li>Instead of repeating a rule which would add more lines of code and repetition, two or more elements that will share the same styling can be grouped together. This helps us write Do Not Repeat Yourself (DRY) code.</li>
             <li>A margin indicates how much space we want around the outside of an element.</li>
             <li>A padding indicates how much space we want around the content inside an element.</li>
+            <li>Text properties such as font size and text allignment can be edited.</li>
+            <li>Image properties suxh as display, height, width, and margins can be edited.</li>
           </ul>
         </section>
-        <section class="card" id="gif-section">
+        <section class="card" id="git-section">
           <h2>Git</h2>
             <ul>
+              <li>Git is a version control system that lets you manage and keep track of each version of your project.</li>
+              <li>Git commands always start with "Git"</li>
+              <li>The default branch is the "main" branch but "master" may also be seen in older repos. We should not do any coding in the main branch. Branch off and create a "feature" branch instead to maintain the main branch.</li>
               <li>git status: checks what branch we are currently on</li>
               <li>git checkout -b branch-name: creates a new branch and switches to it</li>
+              <li>git add -a: adds modifications in the current working branch to the staging area and "-a" shows that we want to add all changes.</li>
+              <li>git commit -m "commit message describing what the commit contains"</li>
+              <li>git pull origin main: receives the main branch modifications into the local environment from the cloud repo.</li>
+              <li>git push origin feature: pushes the modifications on a feature branch onto the cloud repo.</li>
+              <li>The first step to creating a local development version is to create a feature branch.</li>
+              <li>A pull request, or PR, is used to merge a comparison branch into the base branch.</li>
             </ul>
         </section>
         <section class="card" id="javascript-section">
           <h2>Javascript</h2>
             <ul>
-              <li>A variable is a named container that allows us to store data in our code.</li>
-              <li>Control flow is the order in which a computer executes code in a script.</li>
+              <li>A variable is a named container that allows us to store data in our code. To declare a variable, we use the var keyword. After the var keyword, we give the variable a name. We use an assignment operator = to assign the specific data that we want stored in our variable.</li>
+              <li>All strings are surrounded by quotation marks.</li>
+              <li>Each line of JavaScript code ends with a semicolon.</li>
+              <li>Use the console log in ChromeDevTools to check your code. </li>
+              <li>Control flow is the order in which a computer executes code in a script. JavaScript reads top to bottom.</li>
+              <li> Example statment using else if : if (first condition) {
+                // block of code to be executed if first condition is truthy
+             } else if (second condition) {
+                // block of code to be executed if second condition is truthy
+             }</li>
+             <li>Example of if statment: if (0) {
+              console.log("I'm 0!")
+           } else if (null) {
+              console.log("I'm null!")
+           } else if (true) {
+              console.log("I'm true!")
+           }</li>
+           <li>An array is a single variable that is used to hold a group of data.</li>
+           <li>A for loop uses the predictable pattern of indices to perform a task on all the items in an array by allowing a single code block to be executed over and over. </li>
+           <li>Commenting out code makes it inactive without deleting it, just in case you need it later. To comment out multiple lines of JavaScript code, put /* before and */ after the block of code</li>
+           <li>A function is simply a set of instructions that tells the computer how to perform a certain task.</li>
+           <li>Math.floor() and Math.random() are both properties of JavaScript's built-in Math object that can be used together to generate a random number.</li>
             </ul>
         </section>
     </main>
