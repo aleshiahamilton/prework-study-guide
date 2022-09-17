@@ -1,7 +1,7 @@
 # Aleshia's Prework Study Guide
 
 ## Development
-This is a study guide for the coding bootcamp prework. I built this project because I wanted a simple way to learn the essentials of HTML, CSS, Git, and JavaScript. I learned that HTML provides structure to a web application, CSS provides style, and JavaScripts provides functionality. I learned how to use GitBash commands in the command line and access repositories.
+This is a study guide for the coding bootcamp prework. I built this project because I wanted a simple way to learn the essentials of HTML, CSS, Git, and JavaScript. I learned that HTML provides structure to a web application, CSS provides style, and JavaScripts provides functionality. I learned how to use GitBash commands in the command line.
 
 
 ## Installation
